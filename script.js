@@ -20,9 +20,9 @@ function compute()
         in the year ${year}` ;
     }
     else{
-
         alert("Enter a positive number");
-        document.getElementById("principle").style.borderColor = "grey";
+        //focus on the principle field
+        document.getElementById("principle").focus();
     }
 
 }
