@@ -14,10 +14,10 @@ function compute()
         var interest = principle * years * rate / 100 ;
 
         // printing the interest rate briefly
-        document.getElementById("result").innerHTML = `If you deposit ${principle},
-        at an interest rate of ${rate}%.
-        You will receive an amount of ${interest},
-        in the year ${year}` ;
+        document.getElementById("result").innerHTML = `If you deposit <span class="cyel">${principle}</span>,
+        at an interest rate of <span class="cyel">${rate}</span>%.
+        You will receive an amount of <span class="cyel">${interest}</span>,
+        in the year <span class="cyel">${year}</span>` ;
     }
     else{
         alert("Enter a positive number");
