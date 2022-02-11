@@ -22,7 +22,7 @@ function compute()
     else{
         alert("Enter a positive number");
         //focus on the principle field
-        document.getElementById("principle").focus();
+        document.getElementById("principal").focus();
     }
 
 }
