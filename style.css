@@ -12,11 +12,22 @@ h1{
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
-    padding: 20px;
     border-radius: 25px;
     margin: auto;
+    padding: 4vh;
+    width: 300px;
+    min-height: max-content;
 }
 .cyel{
-    color: darkorange;
+    background-color: yellow;
+    padding: 0 1px;
+}
+
+/* Add Media Queries for the breakpoint of width */
+@media screen and (max-width: 600px ) and (min-width: 320px) {
+    .maindiv{
+        width: 80%;
+        height: 80%;
+        padding: 10%;
+    }
 }

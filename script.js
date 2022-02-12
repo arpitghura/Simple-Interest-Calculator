@@ -8,8 +8,6 @@ function compute()
     var year = new Date().getFullYear() + parseInt(years);
     // Validating Principle value
     if(principle > 0){
-        alert("OK");
-
         // calculating interest
         var interest = principle * years * rate / 100 ;
 
